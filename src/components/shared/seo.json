@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_seos",
+  "info": {
+    "displayName": "SEO",
+    "icon": "balance-scale",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "text"
+    },
+    "ShareImage": {
+      "displayName": "shareImage",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.share-image"
+    },
+    "structuredData": {
+      "type": "json"
+    }
+  }
+}

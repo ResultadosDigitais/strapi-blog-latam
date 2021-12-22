@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_posts_related_posts",
+  "info": {
+    "displayName": "RelatedPosts",
+    "icon": "toilet-paper"
+  },
+  "options": {},
+  "attributes": {
+    "intro": {
+      "type": "string"
+    },
+    "posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post"
+    }
+  }
+}
